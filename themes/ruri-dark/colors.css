@@ -4,11 +4,11 @@
     as published by Sam Hocevar. See the COPYING file for more details. */
 
 body {
-    background: #1D1F21;
+    background: #161219;
 }
 
 .name-highlight {
-    color: #d67b96;
+    color:   #d2275a;
 }
 
 main {
@@ -17,11 +17,11 @@ main {
 }
 
 h1 {
-    color: #FFF;
+    color: #e1bcc8;
 }
 
 .subtitle {
-    color: #FFF;
+    color: #e1bcc8;
 }
 
 .searchBar {
@@ -29,8 +29,8 @@ h1 {
     border-color: lightgrey;
 }
 .searchBar:hover {
-    box-shadow: 0 0 5px #FFF;
-    border-color: #FFF;
+    box-shadow: 0 0 5px #e1bcc8;
+    border-color: #e1bcc8;
 }
 
 .searchBar::-webkit-input-placeholder { color: rgba(0,0,0,0); }
@@ -66,14 +66,14 @@ h1 {
 .button_grey > a,
 .button_grey > ul > li > a {
     color: #81A2BE;
-    background: #1D1F21;
+    background: #161219;
 }
 .button_grey > a:after {
     border-left-color: #373B41;
 }
 .button_grey:hover > a,
 .button_grey > ul > li > a:hover {
-    color: #d67b96;
+    color:   #d2275a;
     background: #70293b;
 }
 .button_grey:hover > a,
@@ -81,21 +81,21 @@ h1 {
     border-color: #70293b;
 }
 .button_grey:hover > a:after {
-    border-left-color: #d67b96;
+    border-left-color:   #d2275a;
 }
 
 /* Green button */
 .button_green > a,
 .button_green > ul {
-    border-color: #91b476;
+    border-color: #d2275a;
 }
 .button_green > a,
 .button_green > ul > li > a {
-    color: #43644a;
-    background: #729a64;
+    color: #d2275a;
+    background: #ff2f6d;
 }
 .button_green > a:after {
-    border-left-color: #91b476;
+    border-left-color: #d2275a;
 }
 .button_green:hover > a,
 .button_green > ul > li > a:hover {
@@ -104,10 +104,10 @@ h1 {
 }
 .button_green:hover > a,
 .button_green:hover > ul {
-    border-color: #67E667;
+    border-color: #8752ba;
 }
 .button_green:hover > a:after {
-    border-left-color: #269926;
+    border-left-color:  #b66efb;
 }
 
 /* column standard colors */
@@ -116,7 +116,7 @@ h1 {
 }
 .column > a,
 .column > ul > li:before {
-    color: #1D1F21;
+    color: #161219;
 }
 .column > a {
     text-shadow: 0 0.5px #373B41;
@@ -143,10 +143,10 @@ h1 {
     color: #70293b;
 }
 .column_pink:hover > a {
-    text-shadow: 0 0.5px #d67b96;
+    text-shadow: 0 0.5px   #d2275a;
 }
 .column_pink > ul > li > a:hover {
-    color: #d67b96;
+    color:   #d2275a;
 }
 
 /* green column highlight */
